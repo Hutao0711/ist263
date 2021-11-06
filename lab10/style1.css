@@ -1,9 +1,9 @@
 @media only screen and (max-width:600px) {
-    nav{
+    .nav{
         display: block;
         
     }
-    nav span{
+    .span{
         display: none;
     }
 }
