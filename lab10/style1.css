@@ -1,7 +1,10 @@
 @media only screen and (max-width:600px) {
-    nav a{display: block;};
+    nav{
+        display: block;
+        
+    }
+    nav span{
+        display: none;
+    }
 }
 
-@media only screen and (max-width:600px) {
-    span{display: none;}
-}
