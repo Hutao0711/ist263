@@ -1,9 +1,8 @@
-@media only screen and (min-width:600px) {
-    .nav{
+@media only screen and (max-width:600px) {
+    nav{
         display: block;
-        
     }
-    .span{
+    nav span{
         display: none;
     }
 }
