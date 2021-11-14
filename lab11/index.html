@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tong Wu</title>
+        <link rel="stylesheet" href="../lab07/styles.css">
+        <link rel="stylesheet" href="style1.css">
+    
+        <style>
+            footer p{float: right;margin-left: 10px;}
+            .clear{clear:both}
+            .photo{
+                max-width: 100%;
+            }
+
+            body{
+                font-size: 2em;
+            }
+
+            #skip{
+            position:absolute;/* relative to parent container*/
+            left: -999px;/* move if off the page*/
+            background-color: orange;
+                }
+
+
+            #skip:focus{
+            left:10px;
+            }
+
+        </style>
+    
+    </head>
+
+
+    <body>
+        <a id="skip" href="#maincontent">Skip to Content</a>
+        
+        <nav>
+            <a href="../lab11/index.html">Home</a><span>|</span>
+            <a href="../lab11/skills.html">Skills</a><span>|</span>
+            <a href="../lab11/contact.html">Contact</a>
+        </nav>
+    <a id="maincontent"></a>
+    <section>
+    <h1>Tong Wu's Biography</h1> 
+    <header>
+    <div class="photo"><img src="../images/Tong-bio.JPG" alt="Tong Wu's Photo"></div>
+    </header>
+    <p>My major is Information Management & Technology and interested in information security. I am a senior and I will graduate after this semester. I am planning for applying graduate school. I can use <strong>sql, python and R</strong>. </p>
+    </section>
+  
+    <section>
+    <h2>Personal Information</h2>
+    <main>
+        <p>    I like play soccer and I love hip-hop music.</p>
+        <ul>
+            <li>rap</li>
+            <li>soccer</li>
+            <li>swimming</li>
+        </ul>
+    </main>
+    </section>
+    
+    
+    <footer>
+        <hr>
+        <div class="copyright">
+        &copy;2020
+        
+        <p>"First,solve the problem.Then,write the code."-John Johnson</p>
+        <div class="clear"></div>
+        </div>
+    
+    </footer>
+
+    </body>
+
+</html>
