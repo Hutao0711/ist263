@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Chinese Soccer Team Schedule</title>
     <link rel="stylesheet" href="style1.css">
 
@@ -16,7 +15,7 @@
 
         
         img{
-            margin-left: 150px;
+            margin-left: 4em;
             max-width: 100%;
         }
         
@@ -28,6 +27,18 @@
             flex-basis:50%;
             margin:5em;
         }
+
+        
+        @media only screen and (max-width:992px) {
+        .p{
+            flex-basis: 50%;
+            margin-right: 1.5em;
+        }
+
+        #schedule{
+            margin-top: 5em;
+        }
+    }
 
 
 
@@ -49,7 +60,7 @@
     
     
     <div class="layout">
-        <div class="schedule"><img src="images/schedule.jpeg" alt="schedule"></div>
+        <div class="schedule"><img src="images/schedule.jpeg" alt="schedule" id="schedule"></div>
 
 
 
