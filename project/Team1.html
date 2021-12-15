@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Soccer Team Members</title>
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+        #slideshow-container {
+            width: 1200px;
+            margin: auto; /* margin auto is centering this container */        
+        }
+        #bigimages {
+            padding-top: 100px;
+            margin-right: 100px;
+            float: left;
+        }
+        #wl,#wsc,#wsh,#wx,#yjl,#zlp,#zxz,#aks,#al,#jgt,#lgf{
+            width: 500px
+        }
+        #playerinfo {padding: 100px;}
+        #thumbnails {width: 1200px; margin: auto; padding-top: 20px;} 
+        /* ^^ margin auto is centering this container */
+        #wlthumb,#wscthumb,#wshthumb,#wxthumb,#yjlthumb,#zlpthumb,#zxzthumb,#aksthumb,#althumb,#jgtthumb,#lgfthumb 
+        {width: 100px;}
+
+        #wsc,#wsh,#wx,#yjl,#zlp,#zxz,#aks,#al,#jgt,#lgf{
+            display: none;
+        }
+        #wscinfo,#wshinfo,#wxinfo,#yjlinfo,#zlpinfo,#zxzinfo,#aksinfo,#alinfo,#jgtinfo,#lgfinfo{
+            display: none;
+        }
+        .clear{clear: both;}
+        body{font-size: 1.5em;}
+
+    </style>
+
+    <script>
+        function PlayersOff() {
+            document.getElementById("wl").style.display="none";
+            document.getElementById("wsc").style.display="none";
+            document.getElementById("wsh").style.display="none";
+            document.getElementById("wx").style.display="none";
+            document.getElementById("yjl").style.display="none";
+            document.getElementById("zlp").style.display="none";
+            document.getElementById("zxz").style.display="none";
+            document.getElementById("aks").style.display="none";
+            document.getElementById("al").style.display="none";
+            document.getElementById("jgt").style.display="none";
+            document.getElementById("lgf").style.display="none";
+
+            document.getElementById("wlinfo").style.display="none";
+            document.getElementById("wscinfo").style.display="none";
+            document.getElementById("wshinfo").style.display="none";
+            document.getElementById("wxinfo").style.display="none";
+            document.getElementById("yjlinfo").style.display="none";
+            document.getElementById("zlpinfo").style.display="none";
+            document.getElementById("zxzinfo").style.display="none";
+            document.getElementById("aksinfo").style.display="none";
+            document.getElementById("alinfo").style.display="none";
+            document.getElementById("jgtinfo").style.display="none";
+            document.getElementById("lgfinfo").style.display="none";
+        }
+
+        function wlOn () {
+            document.getElementById("wl").style.display="block";
+            document.getElementById("wlinfo").style.display="block";
+        }
+
+        function wscOn () {
+            document.getElementById("wsc").style.display="block";
+            document.getElementById("wscinfo").style.display="block";
+        }
+
+        function wshOn () {
+            document.getElementById("wsh").style.display="block";
+            document.getElementById("wshinfo").style.display="block";
+        }
+
+        function wxOn () {
+            document.getElementById("wx").style.display="block";
+            document.getElementById("wxinfo").style.display="block";
+        }
+
+        function yjlOn () {
+            document.getElementById("yjl").style.display="block";
+            document.getElementById("yjlinfo").style.display="block";
+        }
+
+        function zlpOn () {
+            document.getElementById("zlp").style.display="block";
+            document.getElementById("zlpinfo").style.display="block";
+        }
+
+        function zxzOn () {
+            document.getElementById("zxz").style.display="block";
+            document.getElementById("zxzinfo").style.display="block";
+        }
+
+        function aksOn () {
+            document.getElementById("aks").style.display="block";
+            document.getElementById("aksinfo").style.display="block";
+        }
+
+        function alOn () {
+            document.getElementById("al").style.display="block";
+            document.getElementById("alinfo").style.display="block";
+        }
+
+        function jgtOn () {
+            document.getElementById("jgt").style.display="block";
+            document.getElementById("jgtinfo").style.display="block";
+        }
+
+        function lgfOn () {
+            document.getElementById("lgf").style.display="block";
+            document.getElementById("lgfinfo").style.display="block";
+        }
+
+    </script>
+</head>
+<body>
+    <a id="skip" href="#maincontent">Skip to Content</a>
+    <nav>
+        <a href="Homepage.html">Home</a><span>|</span>
+        <a href="Team1.html">Team</a><span>|</span>
+        <a href="Schedule.html">Schedule</a>
+    </nav>
+
+    <a id="maincontent"></a>
+
+
+    <div id="slideshow-container">
+        <div id="bigimages">
+            <img src="images/wl.jpg" alt="wl" id="wl">
+            <img src="images/wsc.jpg" alt="wsc" id="wsc">
+            <img src="images/wsh.jpg" alt="wsh" id="wsh">
+            <img src="images/wx.jpg" alt="wx" id="wx">
+            <img src="images/yjl (2).jpg" alt="yjl" id="yjl">
+            <img src="images/zlp.jpg" alt="zlp" id="zlp">
+            <img src="images/zxz.jpg" alt="zxz" id="zxz">
+            <img src="images/aks.jpg" alt="aks" id="aks">
+            <img src="images/al.jpg" alt="al" id="al">
+            <img src="images/jgt.jpg" alt="jgt" id="jgt">
+            <img src="images/lgf.jpg" alt="lgf" id="lgf">
+
+        </div>
+
+
+
+        <div id="playerinfo">
+            <h1>The player's information</h1>
+            <div id="wlinfo">
+                <h2>Wu Lei</h2>
+                <p>Wu Lei, born on November 19, 1991 in Nanjing, Jiangsu Province, is a Chinese football player and striker. He currently plays for Real Espanyol in Spain's First Division.</p>
+            </div>
+
+            <div id="wscinfo">
+                <h2>Wang ShenChao</h2>
+                <p>Wang Shenchao, born on February 8, 1989 in Shanghai, is a Chinese football player. He is a full-back and plays for Shanghai SIPG football Club.</p>
+            </div>
+
+            <div id="wshinfo">
+                <h2>Wei Shihao</h2>
+                <p>Wei Shihao, born on April 8, 1995 in Bengbu, Anhui Province, China, is a Chinese football player and striker who plays for Guangzhou FOOTBALL Club.</p>
+            </div>
+
+            <div id="wxinfo">
+                <h2>Wu Xi</h2>
+                <p>Wu Xi, born on February 19, 1989 in Shijiazhuang, Hebei Province, is a Chinese football player. He is the captain and midfielder of the National Football Team and currently plays for Shanghai Shenhua Football Club.</p>
+            </div>
+
+            <div id="yjlinfo">
+                <h2>Yan Junlin</h2>
+                <p>Yan Junling was born in Changning District, Shanghai on January 28, 1991.  Chinese professional football player, goalkeeper, currently plays for Shanghai SIPG football club.</p>
+            </div>
+
+            <div id="zlpinfo">
+                <h2>Zhang Linpeng</h2>
+                <p>Zhang Linpeng, born on May 9, 1989 in Jinan, Shandong Province, is a Chinese football player who plays at right-back, centre-back and centre-back. Now he plays for Chinese Super League Guangzhou Football Club.</p>
+            </div>
+
+            <div id="zxzinfo">
+                <h2>Zhang Xizhe</h2>
+                <p>Zhang Xizhe, born on January 23, 1991 in Wuhan, Hubei Province, is a Chinese football player. On December 16, 2014, he joined BUNDESliga FC Wolfsburg. On July 15, 2015, Zhang Xizhe transferred back to Beijing Guoan.</p>
+            </div>
+
+            <div id="aksinfo">
+                <h2>Elkeson</h2>
+                <p>Elkeson de Oliveira Cardoso, born on July 13, 1989 in Coelho Neto, Brazil, is a Brazilian-Chinese football player and professional striker.  Now he plays for Guangzhou Football Club in the Chinese Football Association Super League.  </p>
+            </div>
+
+            <div id="alinfo">
+                <h2>Alan</h2>
+                <p>Alan Douglas Borges de Carvalho, born on 10 July 1989 in Barbosa, Sao Paulo, Brazil, is a Brazilian Chinese professional footballer who plays as a centre forward and a winger for Chinese Super League guangzhou Football Club.  </p>
+            </div>
+
+            <div id="jgtinfo">
+                <h2>Jiang Guangtai</h2>
+                <p>Jiang Guangtai, born Tyias Browning on 27 May 1994 in Liverpool, England, is an English born Chinese football player who plays for Guangzhou Football Club in the Chinese Football Association (CFA) Super League.  </p>
+            </div>
+
+            <div id="lgfinfo">
+                <h2>Luo Guofu</h2>
+                <p>Luo Guofu, was born on June 19, 1988, 173cm tall, weight 80kg, Brazilian Chinese football player (naturalized player), field boss professional striker (left wing, right wing), now plays for Guangzhou Football Club.  </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+
+
+
+        <div id="thumbnails">
+            <img src="images/wl.jpg" alt="wl" id="wlthumb" onclick="ImagesOff(); wlOn();">
+            <img src="images/wsc.jpg" alt="wsc" id="wscthumb" onclick="ImagesOff(); wscOn();">
+            <img src="images/wsh.jpg" alt="wsh" id="wshthumb" onclick="ImagesOff(); wshOn();">
+            <img src="images/wx.jpg" alt="wx" id="wxthumb" onclick="ImagesOff(); wxOn();">
+            <img src="images/yjl (2).jpg" alt="yjl" id="yjlthumb" onclick="ImagesOff(); yjlOn();">
+            <img src="images/zlp.jpg" alt="zlp" id="zlpthumb" onclick="ImagesOff(); zlpOn();">
+            <img src="images/zxz.jpg" alt="zxz" id="zxzthumb" onclick="ImagesOff(); zxzOn();">
+            <img src="images/aks.jpg" alt="aks" id="aksthumb" onclick="ImagesOff(); aksOn();">
+            <img src="images/al.jpg" alt="al" id="althumb" onclick="ImagesOff(); alOn();">
+            <img src="images/jgt.jpg" alt="jgt" id="jgtthumb" onclick="ImagesOff(); jgtOn();">
+            <img src="images/lgf.jpg" alt="lgf" id="lgfthumb" onclick="ImagesOff(); lgfOn();">
+        </div>
+
+    </div>
+</body>
+</html>
