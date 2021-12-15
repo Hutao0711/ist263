@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chinese Soccer Team Members</title>
     <link rel="stylesheet" href="style1.css">
 
@@ -18,13 +16,16 @@
             float: left;
         }
         #wl,#wsc,#wsh,#wx,#yjl,#zlp,#zxz,#aks,#al,#jgt,#lgf{
-            width: 500px
+            width: 500px;
+            max-width: 100%;
         }
         #playerinfo {padding: 100px;}
         #thumbnails {width: 1200px; margin: auto; padding-top: 20px;} 
         /* ^^ margin auto is centering this container */
         #wlthumb,#wscthumb,#wshthumb,#wxthumb,#yjlthumb,#zlpthumb,#zxzthumb,#aksthumb,#althumb,#jgtthumb,#lgfthumb 
-        {width: 100px;}
+        {width: 100px;
+        max-width: 100%;
+        }
 
         #wsc,#wsh,#wx,#yjl,#zlp,#zxz,#aks,#al,#jgt,#lgf{
             display: none;
@@ -34,6 +35,7 @@
         }
         .clear{clear: both;}
         body{font-size: 1.5em;}
+        nav{max-width: 100%;}
 
     </style>
 
@@ -228,5 +230,18 @@
         </div>
 
     </div>
+
+
+    <footer>
+        <hr>
+        <div class="copyright">
+        &copy;2020
+        
+        <p>Tie Together 团结是铁！</p>
+        </div>
+
+       
+    
+    </footer>
 </body>
 </html>
