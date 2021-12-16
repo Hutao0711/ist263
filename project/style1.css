@@ -29,10 +29,14 @@ nav{
 
     @media only screen and (max-width:992px) {
         nav a{
-            display: block
+            display: block;
         }
         nav span{
             display: none;
+        }
+
+        nav a:link{
+            padding: 15px;
         }
     }
 
